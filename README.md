@@ -4,7 +4,9 @@ Approach to "Analytics Vidhya Janatahack: Recommendation system"
 
 Hosted at: https://datahack.analyticsvidhya.com/contest/janatahack-recommendation-systems/#ProblemStatement
 
-Rank: 3 from 12,007 registered participant.
+Rank: 18 from 12,052 registered participants had I submitted in live contest.
+
+Score(Mean Average Precision) : 0.23719696969697 
 
 Solution available in jupyter notebook form.
 
@@ -23,6 +25,3 @@ There are three files:
 train.csv: It contains the set of 13 challenges that were attempted by the same user in a sequence.
 challenge_data.csv: Contains attributes related to each challenge
 test.csv: Contains the first 10 challenges solved by a new user set (not in train) in the test set. We need to predict 
-
-
-
