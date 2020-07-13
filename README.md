@@ -1,29 +1,28 @@
-# Programming-Challenges-Recommender-System-using-LSTM
+# AV-Jantahack-Recommendation-system
 
-## Overview
-This is a simple recommender system which predicts next 3 challenges the user might be interested to solve given the history of last 10 challenges the user has solved.
+Approach to "Analytics Vidhya Janatahack: Recommendation system"
 
-## Dataset Description
+Hosted at: https://datahack.analyticsvidhya.com/contest/janatahack-recommendation-systems/#ProblemStatement
 
-We have three data files:
+Rank: 3 from 12,007 registered participant.
+
+Solution available in jupyter notebook form.
+
+## Problem Statement:
+
+Your client is a fast-growing mobile platform, for hosting coding challenges. They have a unique business model, where they crowdsource problems from various creators(authors). These authors create the problem and release it on the client's platform. The users then select the challenges they want to solve. The authors make money based on the level of difficulty of their problems and how many users take up their challenge.
+
+The client, on the other hand makes money when the users can find challenges of their interest and continue to stay on the platform. Till date, the client has relied on its domain expertise, user interface and experience with user behaviour to suggest the problems a user might be interested in. You have now been appointed as the data scientist who needs to come up with the algorithm to keep the users engaged on the platform.
+
+The client has provided you with history of last 10 challenges the user has solved, and you need to predict which might be the next 3 challenges the user might be interested to solve. Apply your data science skills to help the client make a big mark in their user engagements/revenue.
+
+## Data Description
+
+There are three files:
+
+train.csv: It contains the set of 13 challenges that were attempted by the same user in a sequence.
+challenge_data.csv: Contains attributes related to each challenge
+test.csv: Contains the first 10 challenges solved by a new user set (not in train) in the test set. We need to predict 
 
 
-        train.zip:it contains two files:
-            train.csv: It contains the set of 13 challenges that were attempte­­d by the same user in a sequence
-            Variable 	Definition
-            user_sequence 	Unique ID for the sequence
-            user_id 	User ID
-            challenge_sequence 	Challenge sequence number (1-13)
-            challenge 	Challenge ID
-             
-            challenge_data.csv: Contains attributes related to each challenge
-            Variable 	Definition
-            challenge_ID 	Challenge ID
-            programming_language 	Programming language for the challenge
-            challenge_series_ID 	Series for the given challenge
-            total_submissions 	Total submissions by all users
-            publish_date 	Publishing date for the challenge
-            author_ID 	Author ID
-            author_gender 	Author gender
-            author_org_ID 	Organization ID for author
-            category_id 	Type of challenge
+
